@@ -2,16 +2,83 @@
   <header>
     <title>Daialog</title>
     <link rel="stylesheet" href="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.css" />
+    <link rel="stylesheet" href="C:\Users\Mat_p\OneDrive\Área de Trabalho\daialog\src\index.css" />
   </header>
   <body>
-    Hello -Matheus
-    <div class="chat-container"></div>
+    <div class = "hero">
+      <div class="wrapper-hero">
+        <img src="img/Logo_mark_landscape.png" alt="logo" style="height: 50px;width: auto; margin: 12px;padding-left: 10px;">
+        <h2 class="title">Capstone project by Matheus Paro Ferreira</h2>
+      </div>
+      
+        
+    </div>
+    <div class = "wrapper">
+      <div class="instructions">
+        <div class="text">
+        <h1>Welcome to Daialog!</h1> <img src=".\img\logo_mark.png" alt="" style="height: 20px;width: auto;">
+        <p>Here are some instructions on how to use it to its best potential.</p>  
+        <br>
+        <h2>What is Daialog?</h2>
+        <p>Daialog is a teacher helper agent that will helps students to learn languages without the necessity of a teacher.
+          You are able to ask the agent any type of question regarding language learning. For this prototype, you will only be able to talk to it in English. 
+          The idea is making it scalable to any language.
+        </p>
+        <br>
+        <h2>Some commands:</h2>
+        <h6>(Voice commands are allowed only on google chrome)</h6>
+        <p>Daialog is a conversational AI, therefore it will try it's best to understand what you say/type. You can keep it as natural as you want and he will answer you his best, if you keep on hitting a wall, 
+          and he doesn't quite understand what you are trying to say, turn to this cheat sheet that indicates what phrases he is guaranteed to answer.</p><br>
+          <p>Ps: Be creative, you can change words to your liking.</p>
+        <h2>Meaning of word request:</h2>
+          <ul>
+            What does lamp mean?<br>
+            Bottle defenition.
+          </ul>
+        <h2>Usage of word request:</h2>
+          <ul>
+            How to use regardless?<br>
+            How would you use the word therefore?
+          </ul>
+        <h2>Why use a word request:</h2>
+          <ul>
+            When to use whom? <br>  
+            How to correctly use garbologist in a sentence?
+          </ul>
+        <h2>Pronounciation request:</h2>
+          <ul>
+            How to pronounce stew? <br>  
+            Pronounce psychoactive?
+          </ul>
+        <h2>Grammar request:</h2>
+          <ul>
+            I have a doubt about the word govern. <br>  
+            Shift grammar info.
+          </ul>
+        <h2>Grammar instance request:</h2>
+          <ul>
+            What is the grammatical form of shone? <br>  
+            Swept's grammatical form.
+          </ul>
+        <h2>Grammar tenses request:</h2>
+          <ul>
+            Tenses for rebuild. <br>  
+            To alert tenses.
+          </ul>
+      </div>
+      </div>
+      <div class="chat-container"></div>
+    </div>
+
+
+
+
 
   <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"/></script>
   <script type="text/javascript">
     var chatroom = new window.Chatroom({
       host: "https://daialog.hopto.org",
-      title: "Chat with Mike",
+      title: "Daialog Agent",
       container: document.querySelector(".chat-container"),
       welcomeMessage: "Hello!",
       speechRecognition: "en-US",

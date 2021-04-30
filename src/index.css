@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Fira";
+  src: url("fonts\FiraCode-Regular.ttf") format("ttf");
+  
+  }
+
+* {
+  font-family: "Fira","Open Sans", Helvetica, "Helvetica Neue", sans-serif;
+  margin:0px;
+}
+h1, h2, h3, h4, h5, h6, p{font-family:"Fira";}
+body{
+  background-color:#F5F5F5;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 33% 66%;
+  grid-column-gap: 5em;
+  height: 63%;
+  margin:5%
+}
+.instructions{
+  font-family: 'Fira';
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px #1e1e1e0a;
+  overflow: hidden;
+  position: relative;
+  margin: 5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
+.chat-container {
+  font-family: 'Fira';
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px #1e1e1e0a;
+  overflow: hidden;
+  position: relative;
+}
+.hero{
+  width: 100%;
+  height: 75px;
+  margin-bottom: 5px;
+  box-shadow: 0 4px 2px -2px gray;
+  display:inline-block;
+  background-color: white;
+}
+.myheader {
+  width: fit-content;
+}
+.wrapper-hero {
+  width:100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+.title{
+  color: #013333;
+  font-family: 'Fira';
+  text-align: right;
+  margin: 20px;
+  position:static;
+  left: 100%;
+  float: right;
+  font-weight:normal;
+}
+.chatroom.open{
+  background-color: white;
+  height: 100%;
+}
+.chatroom.open h3{
+  background-color:#013333;
+  margin-top: 5px;
+  margin: 0;
+}
+.chatroom .input{
+  background-color:#013333;
+}
+.chatroom .input input[type=submit]{
+  background-color:#013333;
+}
+.chatroom #speech-input{
+  background-color:#013333;
+}
+.instructions h1, h2, h3, h4, h5, h6, p{
+  color: #013333;
+  font-weight:normal;
+  padding: 5px;
+}
+.chatroom .chats .chat.left, .chat.right{
+  background-color: #F5F5F5;
+}
+
+.text {
+  padding: 3%;
+}
+.text h1{
+  font-weight:bold;
+}
+.chatroom .chats .chat .text {
+  word-wrap: normal;
+}
